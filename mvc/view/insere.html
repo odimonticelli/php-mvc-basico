@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Insere Dados</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    
+    <h1>Cadastra os Dados</h1>
+
+    <form action="insere.php" method="post">
+        Descrição <br/>
+        <input type="text" name="des">
+        <br/><br/>
+
+        Valor <br/>
+        <input type="number" name="val">
+        <br/><br/>
+
+        Status <br/>
+        <select name="sta">
+            <option value="PENDENTE">Pendente</option>
+            <option value="CONCLUIDO">Concluido</option>
+        </select>
+        <br/><br/>
+
+        <input type="hidden" name="act" value="insert">
+        <button type="submit">Cadastrar</button>
+    </form>
+    
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    
+    <h1>Exemplo 04 do uso da classe TemplatePower + BD</h1>
+
+    Cadastrando no banco de dados
+    <hr>
+
+    <form action="teste04.php" method="post">
+        Nome: <br>
+        <input type="text" name="nom"> 
+        <br><br>
+
+        Email: <br>
+        <input type="text" name="ema"> 
+        <br><br>
+
+        Senha: <br>
+        <input type="password" name="sen"> 
+        <br><br>
+
+        Tipo: <br>
+        <input type="radio" name="tip" value="gerente">Gerente | 
+        <input type="radio" name="tip" value="tecnico">Técnico 
+        <br><br>
+
+        <input type="hidden" name="act" value="insert">
+        <button type="submit">Cadastrar</button>
+    </form>
+
+</body>
+</html>
